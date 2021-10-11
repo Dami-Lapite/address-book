@@ -1,0 +1,18 @@
+.contact {
+  background-color: #f0f0f0;
+  width: 25em;
+  margin: 0.5em auto;
+  padding: 0.3em 1em;
+  border-radius: 00.5em;
+  position: relative;
+  text-align: left;
+}
+
+.contact h4 {
+  color: #414141;
+}
+
+fa-icon {
+  position: absolute;
+  right: 1em;
+}

@@ -1,0 +1,13 @@
+button {
+  width: max-content;
+  padding: 0.4em;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: black;
+  border: none;
+  border-radius: 0.25em;
+  color: white;
+  margin: auto 0.5em;
+  float: right;
+  font-family: "Jura", sans-serif;
+}

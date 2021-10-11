@@ -1,0 +1,19 @@
+<form *ngIf="showAddContact" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+    <label for="text">First Name :&emsp;</label>
+    <input type="text" name="fname" [(ngModel)]="fname" id="fname" />
+  </div>
+  <div class="form-control">
+    <label for="lname">Last Name :&emsp;</label>
+    <input type="text" name="lname" [(ngModel)]="lname" id="lname" />
+  </div>
+  <div class="form-control">
+    <label for="email">Email :&emsp;</label>
+    <input type="email" name="email" [(ngModel)]="email" id="email" />
+  </div>
+  <div class="form-control">
+    <label for="phone">Phone No. :&emsp;</label>
+    <input type="text" name="phone" [(ngModel)]="phone" id="phone" />
+  </div>
+  <input type="submit" value="Save Contact" />
+</form>

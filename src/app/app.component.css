@@ -1,0 +1,25 @@
+* {
+  font-family: "Jura", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.header {
+  margin: 1.5em auto;
+}
+
+h1 {
+  display: inline;
+}

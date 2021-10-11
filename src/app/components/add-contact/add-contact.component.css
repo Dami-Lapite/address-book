@@ -1,0 +1,29 @@
+form {
+  width: 25em;
+  margin: 0.5em auto;
+  padding: 0.3em 1em;
+  border-radius: 0.5em;
+  border: 0.05em #414141 solid;
+  display: block;
+}
+
+.form-control {
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.form-control label {
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.form-control input {
+  padding: 0.5em;
+  flex-grow: 3;
+  border: 0.1em #414141 solid;
+  border-radius: 0.25em;
+}
